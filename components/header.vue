@@ -38,6 +38,11 @@ export default ({
 </script>
 
 <style>
+header{
+    position: fixed;
+    width: 100%;
+}
+
 header ul {
     display:flex;
     justify-content: space-around;

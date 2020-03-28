@@ -8,6 +8,8 @@
                 <li>1989.X I've born at Tokyo</li>
                 <li>2012.3 I've graduated from University.</li>
                 <li>2012.4 I've belong to a System Integrator and Sales Division.</li>
+                <li>2018.4 I've change the jobs and become developer</li>
+                <li>2019.X I've 30 years old</li>
                 <li>2020.3 This Portfolio 0.1 release.</li>
             </ul>
         </main>
@@ -30,6 +32,9 @@ export default ({
 </script>
 
 <style>
+main{
+    padding-top: 34px;
+}
 main img{
     display: flex;
     flex-direction: column;

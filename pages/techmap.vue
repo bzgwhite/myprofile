@@ -3,6 +3,30 @@
         <Header />
         <main>
             <logo />
+            <h1>Techmap</h1>
+            <section>
+                <h2>language</h2>
+                <ul>
+                    <li>HTML(2016~)</li>
+                    <li>CSS(2016~)</li>
+                    <li>JavaScript(2017~)</li>
+                    <li>PHP(2017~)</li>
+                    <li>Objective-C(2017~)</li>
+                    <li>Python(2019~)</li>
+                    <li>vue.js(2019~)</li>
+                </ul>
+                <h2>FrameWork</h2>
+                <ul>
+                    <li>wordpress(2018~)</li>
+                    <li>nuxt.js(2020~)</li>
+                </ul>
+                <h2>others</h2>
+                <ul>
+                    <li>git(2019)</li>
+                    <li>linux(2019~)</li>
+                    <li>docker(2019~)</li>
+                </ul>
+            </section>
         </main>
         <Footer />
     </div>
@@ -23,6 +47,9 @@ export default ({
 </script>
 
 <style>
+main{
+    padding-top: 34px;
+}
 main img{
     display: flex;
     flex-direction: column;
@@ -31,5 +58,14 @@ main img{
     align-items: center;
     width: 100%;
     height: 100%;
+}
+
+section{
+    margin: 2em auto;
+}
+
+h2{
+    text-align: center;
+    color: white;
 }
 </style>

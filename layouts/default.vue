@@ -1,7 +1,9 @@
 <template>
   <div>
     <nuxt />
-    <div id="ken"></div>
+    <div class="mask">
+      <div id="ken"></div>
+    </div>
   </div>
 </template>
 
@@ -31,20 +33,39 @@ body{
   animation: gradient 20s ease-in-out infinite;
 }
 
-#ken{
-  width: 100vh;
-  height: 100vh;
-  margin: 0 auto;
-  background-size: 50% 50%;
-  background-repeat: no-repeat;
-  animation: ken-chan 20s ease-in-out infinite;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
-  opacity: 0.1;
+
+@media screen and (max-width: 414px){
+  #ken{
+    width: 100vw;
+    height: 100vw;
+    margin: 0 auto;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    animation: ken-chan 20s ease-in-out infinite;
+    position: fixed;
+    top: 25%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    opacity: 0.1;
+  }
+}
+@media screen and (min-width: 415px){
+  #ken{
+    width: 100vh;
+    height: 100vh;
+    margin: 0 auto;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    animation: ken-chan 20s ease-in-out infinite;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.1;
+  }
 }
 
 .button--green {
@@ -79,6 +100,7 @@ body{
 .button--white {
   display: inline-block;
   border-radius: 4px;
+  border: 1px solid;
   text-decoration: none;
   padding: 10px 30px;
   margin-left: 15px;

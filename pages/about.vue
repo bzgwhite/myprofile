@@ -35,6 +35,9 @@ export default ({
 </script>
 
 <style>
+main{
+    padding-top: 34px;
+}
 main img{
     display: flex;
     flex-direction: column;
