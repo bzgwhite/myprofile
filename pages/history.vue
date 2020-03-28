@@ -12,6 +12,17 @@
                 <li>2019.X I've 30 years old</li>
                 <li>2020.3 This Portfolio 0.1 release.</li>
             </ul>
+            <h2>Next generation</h2>
+            <ul>
+                <li>2020.X I will learn machine learning</li>
+                <li>2020.X I will learn DevOps</li>
+                <li>2020.X I will learn MlOps</li>
+                <li>2020.X I will learn Backend more</li>
+                <li>2020.X I will learn Frontend more</li>
+                <li>2020.X I will learn Computer Science more</li>
+                <li>2020.X I will learn IoT</li>
+                <li>2020.X I will learn Fashion</li>
+            </ul>
         </main>
         <Footer />
     </div>
