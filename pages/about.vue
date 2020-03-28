@@ -20,6 +20,12 @@
                 <p>Computer make me happy!</p>
                 <p>Karaoke make me happy!</p>
                 <p>Reading book make me happy!</p>
+                <p>Sleeping make me happy!</p>
+                <p>Running make me happy!</p>
+                <p>Walking make me happy!</p>
+                <p>BasketBall make me happy!</p>
+                <p>Hospital make me happy!</p>
+                <p>Party make me happy!</p>
             </section>
         </main>
         <Footer />

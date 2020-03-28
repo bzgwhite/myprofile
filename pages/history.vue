@@ -14,14 +14,18 @@
             </ul>
             <h2>Next generation</h2>
             <ul>
-                <li>2020.X I will learn machine learning</li>
-                <li>2020.X I will learn DevOps</li>
-                <li>2020.X I will learn MlOps</li>
-                <li>2020.X I will learn Backend more</li>
-                <li>2020.X I will learn Frontend more</li>
-                <li>2020.X I will learn Computer Science more</li>
-                <li>2020.X I will learn IoT</li>
-                <li>2020.X I will learn Fashion</li>
+                <li>2020.X I will learn machine learning.</li>
+                <li>2020.X I will learn DevOps.</li>
+                <li>2020.X I will learn MlOps.</li>
+                <li>2020.X I will learn Backend more.</li>
+                <li>2020.X I will learn Frontend more.</li>
+                <li>2020.X I will learn Computer Science more.</li>
+                <li>2020.X I will learn DataBase more.</li>
+                <li>2020.X I will learn Architecture more.</li>
+                <li>2020.X I will learn Healthcare more.</li>
+                <li>2020.X I will learn IoT.</li>
+                <li>2020.X I will learn Fashion.</li>
+                <li>2020.X I will learn about happiness.</li>
             </ul>
         </main>
         <Footer />
