@@ -5,10 +5,10 @@
 
       <div>
         <logo />
-        <h1 class="title">
+        <h1 class="title change_font">
           Black Dragon
         </h1>
-        <h2 class="subtitle">
+        <h2 class="subtitle change_font">
           My history &amp; Technology
         </h2>
         <div class="links">

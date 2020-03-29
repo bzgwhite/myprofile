@@ -1,7 +1,7 @@
 <template>
     <div>
         <Header />
-        <main>
+        <main class="change_font">
             <logo />
             <h1>Techmap</h1>
             <section>

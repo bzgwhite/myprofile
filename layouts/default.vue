@@ -1,11 +1,21 @@
 <template>
   <div>
-    <nuxt />
+    <transition name="page" mode="out-in">
+      <nuxt />
+    </transition>
     <div class="mask">
       <div id="ken"></div>
     </div>
   </div>
 </template>
+
+<script lang="ts">
+export default({
+  transition:{
+    name: "page"
+  }
+})
+</script>
 
 <style>
 html {
@@ -112,6 +122,28 @@ body{
   background-color: #35495e;
 }
 
+.change_font{
+  animation: font-change 20s ease-in-out infinite;
+}
+
+@keyframes font-change {
+    0% {
+      color: #fff;
+    }
+    25% {
+      color: #a5bccc;
+    }
+    50% {
+      color: #000;
+    }
+    75% {
+      color: #3c78e7;
+    }
+    100% {
+      color: #fff;
+    }
+}
+
 @keyframes color-change {
     0% {
       border: 1px solid #fff;
@@ -204,4 +236,22 @@ body{
     }
 }
 
+  .page-enter, .page-leave{
+    opacity: 0;
+
+  }
+  .page-enter-active, .page-leave-active {
+    animation: pgIn 2s;
+  }
+
+@keyframes pgIn{
+  0%{
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
 </style>
