@@ -89,4 +89,10 @@ h2{
     list-style: none;
 }
 
+@media screen and (max-width: 414px){
+    .techmap_area ul{
+        width: 90%;
+    }
+}
+
 </style>

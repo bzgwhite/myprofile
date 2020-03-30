@@ -80,4 +80,10 @@ h1,h2{
     list-style: none;
 }
 
+@media screen and (max-width: 414px){
+    .history_area ul{
+        width: 90%;
+    }
+}
+
 </style>
