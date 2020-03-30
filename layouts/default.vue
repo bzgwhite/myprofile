@@ -1,8 +1,10 @@
 <template>
   <div>
+    <Header />
     <transition name="page" mode="out-in">
       <nuxt />
     </transition>
+    <Footer />
     <div class="mask">
       <div id="ken"></div>
     </div>
@@ -10,9 +12,15 @@
 </template>
 
 <script lang="ts">
+import Header from '@/components/header.vue'
+import Footer from '@/components/footer.vue'
 export default({
   transition:{
     name: "page"
+  },
+  components:{
+    Header,
+    Footer
   }
 })
 </script>

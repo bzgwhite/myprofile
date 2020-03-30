@@ -35,14 +35,10 @@
 
 <script lang="ts">
 import Logo from '@/components/Logo.vue'
-import Header from '@/components/header.vue'
-import Footer from '@/components/footer.vue'
 
 export default ({
   components: {
-    Logo,
-    Header,
-    Footer
+    Logo
   }
 })
 </script>

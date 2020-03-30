@@ -4,7 +4,7 @@
         <main class="change_font">
             <logo />
             <h1>Techmap</h1>
-            <section>
+            <section class="techmap_area">
                 <h2>language</h2>
                 <ul>
                     <li>HTML(2016~)</li>
@@ -42,14 +42,10 @@
 
 <script lang="ts">
 import Logo from '~/components/Logo.vue'
-import Header from '@/components/header.vue'
-import Footer from '@/components/footer.vue'
 
 export default ({
     components: {
-        Logo,
-        Header,
-        Footer
+        Logo
     }
 })
 </script>
@@ -68,12 +64,29 @@ main img{
     height: 100%;
 }
 
-section{
-    margin: 2em auto;
+h1,h2{
+    margin-bottom: 1em;
 }
 
 h2{
     text-align: center;
     color: white;
 }
+
+.techmap_area{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 2em auto;
+}
+.techmap_area ul{
+    text-align: left;
+    padding: 0;
+    width: 50%;
+    margin-bottom: 1em;
+}
+.techmap_area li{
+    list-style: none;
+}
+
 </style>
