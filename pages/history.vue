@@ -6,7 +6,7 @@
             <h1>My History</h1>
             <div class="history_area">
                 <ul>
-                    <li>1989.X I've born at Tokyo</li>
+                    <li>1989.X I've born in Tokyo</li>
                     <li>2012.3 I've graduated from University.</li>
                     <li>2012.4 I've belong to a System Integrator and Sales Division.</li>
                     <li>2018.4 I've change the jobs and become developer</li>
