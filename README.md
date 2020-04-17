@@ -1,5 +1,5 @@
 # bzg_white
-Hi,everyone! This site is myprofile....
+Hi,everyone! This is myprofile....
 
 ## GitHub Pages
 https://bzgwhite.github.io/myprofile/
